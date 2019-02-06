@@ -8,14 +8,14 @@ export default class Navbar extends Component{
         return(
     <nav className="navbar navbar-expand-md navbar-dark bg-dark mb-0">
         <div className="container">
-        <Link className="navbar-brand" to="/">jSpace.io</Link>
+        <Link className="navbar-brand" to="/home">jSpace.io</Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-                <Link className="nav-link" to="/">Home</Link>
+                <Link className="nav-link" to="/">Login</Link>
             </li>
             <li className="nav-item">
                 <Link className="nav-link" to="/News">News</Link>

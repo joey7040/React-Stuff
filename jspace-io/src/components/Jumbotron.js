@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+
 import './Jumbotron.css';
 
 export default class Jumbotron extends Component {
