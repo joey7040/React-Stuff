@@ -7,8 +7,8 @@ export default class LoginComponent extends Component {
         <form className="form-signin">
         <div className="text-center mb-4">
             <img className="mb-4" src="/docs/4.2/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72" />
-            <h1 className="h3 mb-3 font-weight-normal">Floating labels</h1>
-            <p>Build form controls with floating labels via the <code>:placeholder-shown</code> pseudo-element. <a href="https://caniuse.com/#feat=css-placeholder-shown">Works in latest Chrome, Safari, and Firefox.</a></p>
+            <h1 className="h3 mb-3 font-weight-normal">JSpace</h1>
+            <p>Welcome to Jspace I.O. That name might be changing. goto /home to get in haha. </p>
         </div>
 
         <div className="form-label-group">
