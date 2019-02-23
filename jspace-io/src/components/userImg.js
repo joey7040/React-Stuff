@@ -3,6 +3,7 @@ import './userImg.css';
 
 
 export default class UserImg extends Component{
+
     render(){
         return (
             <div>
