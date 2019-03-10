@@ -10,6 +10,7 @@ export default class EditProfile extends Component {
             <div>
                 <NavBar/>
                 <CssEditor />
+                <CssEditor />
             </div>
         )
     }
