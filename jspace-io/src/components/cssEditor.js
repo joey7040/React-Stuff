@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import AceEditor from 'react-ace';
-import brace from 'brace';
 import 'brace/mode/css';
 import 'brace/theme/dracula';
 import './cssEditor';
