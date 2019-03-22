@@ -3,12 +3,17 @@ import "./profile_headder.css"
 
 export default class ProfileHeader extends Component {
     render(){
+  
+
+
+
+
         return (
             <div>
-                                <div className="profile-header">
+                                <div className="profile-header" >
                     <div className="container">
                         <div className="container-inner">
-                        <img className="rounded-circle media-object" alt="avi" src="../public/assets/img/avatar-dhg.png"/>
+                        <img className="rounded-circle media-object" alt="avi" src="../../public/Assets/Imgs/avatar-dhg.png"/>
                         <h3 className="profile-header-user">Dave Gamache</h3>
                         <p className="profile-header-bio">
                             I wish i was a little bit taller, wish i was a baller, wish i had a girl…&nbsp;also.
