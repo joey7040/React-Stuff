@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const errorHandler = require("./handlers/err");
+const errorHandler = require("./handlers/error");
 const authRoutes = require("./routes/auth");
 const db = require("./models");
 const PORT = 8081;
@@ -21,9 +21,6 @@ app.use(function(req, res, next) {
 
 app.use(errorHandler);
 
-
-
-
-app.listen(PORT, function(){
-    console.log(`Server running on port ${PORT} baby, all systems go!`)
-})
+app.listen(PORT, function() {
+  console.log(`Server is starting on port ${PORT}`);
+});
