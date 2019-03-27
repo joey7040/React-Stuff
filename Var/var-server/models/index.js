@@ -6,3 +6,5 @@ mongoose.connect("mongodb://localhost/var",{
     
 });
 
+module.exports.User = require("./user");
+
