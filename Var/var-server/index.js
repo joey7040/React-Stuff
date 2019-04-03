@@ -10,11 +10,14 @@ const db = require("./models");
 const {loginRequired, ensureCorrectUser } = require("./middleware/auth")
 const PORT = 8081;
 
-app.use(cors());
+app.use(cors());s
 app.use(bodyParser.json());
 
 app.use("/api/auth", authRoutes);
-app.use("/api/user/:id/messages", loginRequired, ensureCorrectUser, messagesRoutes);
+app.use("/api/user/:id/messages", 
+loginRequired, 
+ensureCorrectUser, 
+messagesRoutes);
 
 app.use(function(req, res, next) {
   let err = new Error("Not Found");
