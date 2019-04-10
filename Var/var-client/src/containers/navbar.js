@@ -11,33 +11,33 @@ class Navbar extends Component {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <a className="navbar-brand" href="index.html">
+                <Link className="navbar-brand" to="/">
                    VAR
-                </a>
+                </Link>
 
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav mr-auto">
                     <li className="nav-item active">
-                        <a className="nav-link" href="index.html">Home <span className="sr-only">(current)</span></a>
+                        <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="profile/index.html">Profile</a>
+                        <Link className="nav-link" to="/">Profile</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" data-toggle="modal" href="#msgModal">Messages</a>
+                        <Link className="nav-link" data-toggle="modal" to="/">Messages</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="docs/index.html">Docs</a>
+                        <Link className="nav-link" to="/">Docs</Link>
                     </li>
 
                     <li className="nav-item hidden-md-up">
-                        <a className="nav-link" href="notifications/index.html">Notifications</a>
+                        <Link className="nav-link" to="/">Notifications</Link>
                     </li>
                     <li className="nav-item hidden-md-up">
-                        <a className="nav-link" data-action="growl">Growl</a>
+                        <Link className="nav-link" data-action="growl">Growl</Link>
                     </li>
                     <li className="nav-item hidden-md-up">
-                        <a className="nav-link" href="login/index.html">Logout</a>
+                        <Link className="nav-link" to="/">Logout</Link>
                     </li>
 
                     </ul>
@@ -48,9 +48,9 @@ class Navbar extends Component {
 
                     <ul id="#js-popoverContent" className="nav navbar-nav float-right mr-0 hidden-sm-down">
                     <li className="nav-item">
-                        <a className="app-notifications nav-link" href="notifications/index.html">
+                        <Link className="app-notifications nav-link" to="/">
                         <span className="icon icon-bell"></span>
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item ml-2">
                         <button className="btn btn-default navbar-btn navbar-btn-avatar" data-toggle="popover" data-original-title="" title="">
