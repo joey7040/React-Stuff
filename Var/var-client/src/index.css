@@ -32,6 +32,6 @@ ul.nav.navbar-nav li {
 }
 
 .onboarding > .navbar {
-  background-image: url("./images/nav-bg.png");
+  /* background-image: url("./images/nav-bg.png"); */
   background-size: 100% 100%;
 }
