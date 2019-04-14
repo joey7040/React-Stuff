@@ -1,3 +1,4 @@
+module.exports.User = require("./user");
 const mongoose = require("mongoose");
 mongoose.set("debug", true);
 mongoose.Promise = Promise;
@@ -6,7 +7,4 @@ mongoose.connect("mongodb://localhost/warbler", {
 });
 
 module.exports.User = require("./user");
-<<<<<<< HEAD
-
-=======
->>>>>>> 4560ea6d85e0f3d24b4f3160db5859825f4a7a23
+module.exports.Message = require("./message");
