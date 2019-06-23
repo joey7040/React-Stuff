@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Form , FormGroup, Input, Label, Button } from 'reactstrap';
 import axios from 'axios';
-
+import './App.css';
 
 class App extends Component {
 
@@ -40,8 +40,18 @@ async handleSubmit(e){
 
 render(){
   return (
-  <Form onSubmit={this.handleSubmit} className='container align-center' style={{ width:'30rem'  }}>
-    <FormGroup>
+
+<div className='butterz'>
+
+  <div className='textContent'>
+    <h3>Something here.</h3>
+    <p>Something else here that would be more contact info.</p>
+    <p>Something else here that would be more contact info.</p>
+  </div>
+  
+    <div>
+  <Form onSubmit={this.handleSubmit} className='container align-right' style={{ width:'30rem'  }}>
+    <FormGroup className>
       <Label for="name">Name:</Label>
       <Input
         type="text"
@@ -68,6 +78,9 @@ render(){
     </FormGroup>
     <Button>Submit</Button>
   </Form>
+  </div>
+
+  </div>
   );
 }
 }
