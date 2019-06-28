@@ -1,14 +1,23 @@
-.butterz{
-  margin-top:20rem;
-  align-content: center;
-  margin-left: 15rem
-}
 
 .width{
   width:30rem;
   
 }
+.white{
+  color:white;
+}
 
-.textContent {
-  margin-top:20rem;
+.center{
+  position: relative;
+  margin-right:none !important; 
+  padding-top:10rem;
+}
+
+
+.back {
+  background-image: url('https://www.stratusbuildingsolutions.com/sites/default/files/subcat_img/powerwashing.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70rem;
 }

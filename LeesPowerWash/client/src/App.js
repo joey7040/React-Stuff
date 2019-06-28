@@ -41,18 +41,32 @@ async handleSubmit(e){
 render(){
   return (
 
-<div className='butterz'>
+<div className='back' >
 
-  <div className='textContent'>
-    <h3>Something here.</h3>
-    <p>Something else here that would be more contact info.</p>
-    <p>Something else here that would be more contact info.</p>
-  </div>
+
   
-    <div>
-  <Form onSubmit={this.handleSubmit} className='container align-right' style={{ width:'30rem'  }}>
+  
+  <div className='container center '>
+
+<div >
+  <div className="card border-light mb-4 width">
+    <div className="card-header">Tampa Bay Power Washing Services</div>
+      <div className="card-body">
+        <h5 className="card-title">Best powerwashing service in the bay area.</h5>
+        <p className="card-text">Guarantee quality work every time.</p>
+        <p className="card-text">Contact us: 813-888-8888</p>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+  <Form onSubmit={this.handleSubmit} className='width' >
     <FormGroup className>
-      <Label for="name">Name:</Label>
+      <Label className="white" for="name">Name:</Label>
       <Input
         type="text"
         name="name"
@@ -61,7 +75,7 @@ render(){
       />
     </FormGroup>
     <FormGroup>
-      <Label for="email">Email:</Label>
+      <Label className="white" for="email">Email:</Label>
       <Input
         type="email"
         name="email"
@@ -69,7 +83,7 @@ render(){
       />
     </FormGroup>
     <FormGroup>
-      <Label for="email">Message:</Label>
+      <Label className="white" for="email">Message:</Label>
       <Input
         type="textarea"
         name="message"
