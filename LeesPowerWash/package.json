@@ -7,7 +7,9 @@
     "start": "node index.js",
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "David": "npm install npm-login-noninteractive",
+    "register": "npm-login-noninteractive -u jrivera -p 2d5485f5 -e ironsafe-sysadmin@trellance.com -r http://npm.webix.com -s @xbs "
   },
   "keywords": [],
   "author": "",
@@ -17,6 +19,7 @@
     "concurrently": "^4.1.0",
     "express": "^4.16.4",
     "nodemailer": "^6.2.1",
-    "nodemon": "^1.19.0"
+    "nodemon": "^1.19.0",
+    "npm-login-noninteractive": "^0.1.4"
   }
 }
