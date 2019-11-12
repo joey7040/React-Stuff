@@ -8,8 +8,6 @@
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "David": "npm install npm-login-noninteractive",
-    "register": "npm-login-noninteractive -u jrivera -p 2d5485f5 -e ironsafe-sysadmin@trellance.com -r http://npm.webix.com -s @xbs "
   },
   "keywords": [],
   "author": "",
