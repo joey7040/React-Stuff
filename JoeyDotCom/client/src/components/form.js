@@ -48,7 +48,7 @@ class ContactForm extends Component {
             Message:
             <textarea name="message" type="text" value={this.state.message} onChange={this.handleChange} />
           </label>
-          <input type="submit" value="Submit" />
+          <input className='button' type="submit" value="Submit" />
         </form>
       );
     }
