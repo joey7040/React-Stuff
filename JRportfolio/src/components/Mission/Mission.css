@@ -1,5 +1,5 @@
 .jumbotron{
-    background-image: url('../assets/img/serverroom.jpg');
+    background-image: url('../../assets/img/serverroom.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height:40rem;

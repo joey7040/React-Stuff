@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import './Mission.css'
 import {Link} from 'react-router-dom';
-import pic from '../assets/img/joeyteachjon.jpg'
-import AnimatedHeader from './AnimatedTyper';
+import pic from '../../assets/img/joeyteachjon.jpg'
+import AnimatedHeader from '../AnimatedTyper/AnimatedTyper';
 
 export default class Mission extends Component {
     render(){

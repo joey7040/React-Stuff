@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import styled from "styled-components";
 import './Navbar.css';
-import logo from '../assets/img/JRlogo.png';
+import logo from '../../assets/img/JRlogo.png';
 
 
 export default class Navbar extends Component {
