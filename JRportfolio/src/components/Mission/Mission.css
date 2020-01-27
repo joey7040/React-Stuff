@@ -2,7 +2,7 @@
     background-image: url('../../assets/img/serverroom.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height:40rem;
+    height:63rem;
     margin-top:-2rem; 
   }
 
@@ -13,6 +13,10 @@
     margin-left: -10rem;
     padding-right: 20px
 
+  }
+
+  .positionParticles{
+    margin-top: -41rem;
   }
 
   .info{

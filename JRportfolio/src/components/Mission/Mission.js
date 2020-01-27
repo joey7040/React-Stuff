@@ -3,20 +3,110 @@ import './Mission.css'
 import {Link} from 'react-router-dom';
 import pic from '../../assets/img/joeyteachjon.jpg'
 import AnimatedHeader from '../AnimatedTyper/AnimatedTyper';
+import Particles from 'react-particles-js';
+// import ParticleMouse from '../Particles/Particles'
+
+
+
+
+
+
+
+
+
+
+
 
 export default class Mission extends Component {
     render(){
         return(
             <div>
                 <div className="jumbotron jumbotron-fluid">
-                        <div className="container">
-                           <AnimatedHeader className='cursorColor'/>
-                        </div>
+                    
+                <div className="container">    
+                <AnimatedHeader />
+                </div>
+                
+                <Particles className="positionParticles"
+                            params={{
+                                "particles": {
+                                    "number": {
+                                    "value": 100,
+                                    "density": {
+                                        "enable": true,
+                                        "value_area": 650
+                                    }
+                                    },
+                                    "color": {
+                                    "value": "#6495ED"
+                                    },
+                                    "shape": {
+                                    "type": "circle",
+                                    },
+                                    "opacity": {
+                                    "value": 0,
+                                    "random": false
+                                    },
+                                    "size": {
+                                    "value": 9,
+                                    "random": false,
+                                    "anim": {
+                                        "enable": false
+                                    }
+                                    },
+                                    "line_linked": {
+                                    "enable": true,
+                                    "opacity": 0.2
+                                    },
+                                    "move": {
+                                    "enable": true,
+                                    "speed": 1,
+                                    "direction": "none",
+                                    "random": true,
+                                    "straight": false,
+                                    "out_mode": "out",
+                                    "bounce": false,
+                                    "attract": {
+                                        "enable": false,
+                                        "rotateX": 600,
+                                        "rotateY": 1200
+                                    }
+                                    }
+                                },
+                                "interactivity": {
+                                    "detect_on": "canvas",
+                                    "events": {
+                                    "onhover": {
+                                        "enable": true,
+                                        "mode": "bubble"
+                                    },
+                                    "onclick": {
+                                        "enable": true,
+                                        "mode":"grab"
+                                    },
+                                    "resize": true
+                                    },
+                                    "modes": {
+                                    "bubble": {
+                                        "distance": 200,
+                                        "size": 10,
+                                        "duration": 2,
+                                        "opacity": 1,
+                                        "speed": 5
+                                    }
+                                    }
+                                },
+                                "retina_detect": true
+                            }} />
+                            
                     </div>
                 <div className="container">
-
+                           
                             <img src={pic} className="pic rounded float-left" alt="..." />
                     <div className="info">
+                    <div className="container ">
+                        
+                        </div>
                             <h2>About Joey</h2>
                             <p>
                             Hello world & welcome to my crazy mind. Thank you for stopping by to check out the digs. 

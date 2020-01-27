@@ -1,13 +1,14 @@
 .display-4{
-    margin-top:10rem;
-    color:white;
+    margin-top:30rem;
+    color:white(0, 0, 0);
   }
   
   .lead{
     margin-top:2rem;
-    color: white;
+    margin-buttom:-20rem;
+    color: white(0, 0, 0);
   }
 
   .cursor{
-    color:white !important;
+    color:rgb(0, 0, 0) !important;
   }

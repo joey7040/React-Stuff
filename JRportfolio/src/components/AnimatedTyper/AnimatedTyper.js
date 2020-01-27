@@ -6,7 +6,7 @@ import './AnimatedTyper.css';
 export default class AnimatedHeader extends Component {
     render(){
         return (
-            <Typing speed={80} className='cursor' >
+            <Typing speed={1} className='cursor' >
                 <div>
                     <h1 className="display-4">Heros are remembered,</h1>
                     <Typing.Delay ms={1000}/>

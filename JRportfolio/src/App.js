@@ -11,7 +11,7 @@ import Mission from './components/Mission/Mission';
 // import DonateDirectly from './components/DonateDirect';
 // import About from './components/Aboutus';
 import Affiliates from './components/Affiliates/Affiliates';
-// import Projects from './components/Projects';
+import ProjectUC from './components/Projects/ProjectUC';
 import Contact from './components/ContactForm/Contacts';
 import PhotoGallery from './components/Gallery/Gallery';
 
@@ -23,7 +23,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Mission} />
             <Route path="/mission" component={Mission} />
-            {/* <Route path="/projects" component={Projects} /> */}
+            <Route path="/projects" component={ProjectUC} />
             <Route path="/affiliates" component={Affiliates} />
             <Route path="/gallery" component={PhotoGallery} />
             <Route path="/contact" component={Contact} />

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import Eyeball from '../Eyeball/Eyeball.js';
 
 
 
@@ -8,10 +8,12 @@ export default class Contact extends Component{
     render(){
         return (
             <div>
+           
+            <div>
+          
                 
+                <div className='container-fluid container col-6 mt-5 pt-5'>
                 
-                
-                <div className='container'>
                 <form>
                     <div className="form-group">
                         <label for="name">Name</label>
@@ -33,7 +35,14 @@ export default class Contact extends Component{
                     <button type="submit" className="btn btn-primary">Submit</button>
                     </form>
                 </div>
+
+                <div className='container mt-5 pt-5'>
+                     <Eyeball/>
+                </div>
+
+
             </div>
+        </div>
         )
     }
 }

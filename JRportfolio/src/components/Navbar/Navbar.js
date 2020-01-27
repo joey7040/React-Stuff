@@ -8,8 +8,8 @@ import logo from '../../assets/img/JRlogo.png';
 export default class Navbar extends Component {
     render(){
         return(
-            <div>
-                <NavWraper className="navbar navbar-expand-lg navbar-light bg-light ">
+            <div className= 'justify-content-center'>
+                <NavWraper className="navbar navbar-expand-lg navbar-light bg-light nav-masthead justify-content-center ">
                             
                             
                             <Link className="nav-item" to="/">

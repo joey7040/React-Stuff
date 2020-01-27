@@ -1,9 +1,13 @@
 import React, {Component} from 'react';
+import ProjectUC from '../Projects/ProjectUC.js';
+
 
 export default class Affiliates extends Component {
     render(){
         return  (
-            <div>Affiliates page</div>
+            <div>
+                <ProjectUC />
+            </div>
         )
     }
 }
